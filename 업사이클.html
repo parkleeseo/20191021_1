@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!-- saved from url=(0050)file:///C:/Users/lisa/Desktop/upcycling/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>업사이클</title>
+<style>
+
+		#first {width: 50px; position: absolute; animation: drop 1s ease infinite;}
+
+			@keyframes drop
+			{from{margin-top: 0;}
+			to{margin-top: 800px;}
+			}
+
+		#first2 {width: 50px; position: absolute;
+			animation: drop2 1s ease infinite;}
+
+			@keyframes drop2{
+				from{margin-top: 0;}
+				to{margin-top: 800px;}
+			}
+</style></head>
+
+
+
+<body>
+	<img id="first" src="./업사이클_files/first.png" style="display: none;">
+	<img id="first2" src="./업사이클_files/first2.png" style="display: none;">
+
+	<script type="text/javascript">
+		var total = 0;
+		for(var i = 0;i<25;i++){
+
+			var j = document.getElementById("frist")
+			var newpill = j.cloneNode(true);
+			newpill.style.left = math.random()*window.innerWidth + "px";
+			newpill.style.left = math.random()*window.innerHeight + "px";
+			document.body.appendchild(newpill);
+			}
+
+			var z = document.getElementById("first");
+			z.style.display = "none";
+
+
+		var total = 0;
+		for(var i = 0;i<25;i++){
+
+			var j = document.getElementById("frist2")
+			var newpill2 = j.cloneNode(true);
+			newpill2.style.left = math.random()*window.innerWidth + "px";
+			newpill2.style.left = math.random()*window.innerHeight + "px";
+			document.body.appendchild(newpill2);
+			}
+
+			var z = document.getElementById("first2");
+			z.style.display = "none";
+
+			var i = 0;
+			var o = 0;
+			var g = 0;
+			function a(){
+				i++;
+				if(i%2==1){
+
+				}
+			}
+
+	</script>
+
+</body></html>
